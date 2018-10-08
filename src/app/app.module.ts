@@ -10,10 +10,14 @@ import { Assignment3Module } from './assignment3/assignment3.module';
 import { Assignment4Module } from './assignment4/assignment4.module';
 import { Assignment5Module } from './assignment5/assignment5.module';
 import { Assignment6Module } from './assignment6/assignment6.module';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent,
   ],
   imports: [
     BrowserModule,
