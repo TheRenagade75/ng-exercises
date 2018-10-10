@@ -12,12 +12,14 @@ import { Assignment5Module } from './assignment5/assignment5.module';
 import { Assignment6Module } from './assignment6/assignment6.module';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
